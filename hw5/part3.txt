@@ -1,0 +1,12 @@
+Asymptotic Anaysis
+
+1. since x^2 scales faster than log x, the bound would be theta(x^2)
+
+2. since log(4x^3 +2x^2) scales the same as log(x^3). The upper bound is O(4log x) meaning the tight bound is theta(log (x)).
+
+3. N(N-1)/2
+
+4. The worst case would be when the if statement is never fulfilled in which case it would be theta(N^2)
+
+5. 3^N
+

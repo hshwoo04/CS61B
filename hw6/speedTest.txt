@@ -1,0 +1,22 @@
+Results for InsertRandomSpeedTest:
+
+when N was 5000:
+
+the linked list set got a time of 0.10 seconds
+the BST class got a time of 0.02 seconds
+and the Treeset get a time to 0.02 seconds.
+
+Results for InsertInOrderSpeedTest:
+when N was 5000:
+
+the linked list set got a time of 0.19 seconds
+the BST class got a time of 0.22 seconds
+and the Treeset get a time to 0.02 seconds.
+
+Explain anything interesting that you might have observed above:
+
+Generally the when the inputs were in order, the time increased with the exception of the
+Truest. This is probably mainly due to the fact that random inputs often does not
+have to travel to the bottom of the tree or list, while the ordered inputs need to
+compare themselves to the very end of the tree/list. The TreeSet does not need to do 
+these types of comparisons and therefore does not differ in time between the random and the in order inputs.
