@@ -1,0 +1,25 @@
+Results for InsertRandomSpeedTest for N = 1000000:
+
+
+Results for InsertRandomSpeedTest for N = 2000000:
+
+
+Does your ECHashStringSet look roughly linear or roughly quadratic in its scaling behavior for random strings?
+
+I would assume that the EC StringSet will look roughly linear because the nature of its data structure(using hashes) does not depend on the order of the content. Because it utilizes hash values to classify each string, all would be randomized and because of the use of resizing the arrays, the scaling behavior is likely to be linear
+
+
+Results for InsertInOrderSpeedTest for N = 10000:
+
+
+Results for InsertInOrderSpeedTest for N = 20000:
+
+
+Does your **BST**StringSet look roughly linear or roughly quadratic in its scaling behavior for in order strings? 
+
+For in order strings, the BST would be quadratic because it utilizes a binary tree in as a data structure. This means that if the data is in order, it would essentially create a spindly long tree rather than a bushy one from random values. As a result, the scaling behavior would be quadratic.
+
+Before submitting, make sure that your ECHashStringSet is capable of handling inputs of size 1000000 in a reasonable amount of time (less than a minute).
+
+
+*** could not figure out why I was running into errors for the speed tests.
