@@ -1,0 +1,4 @@
+Error
+
+getting arrayIndexOutOfBoundsException (usually off by one)
+It may have to do with Condition.test or using the array of rows or the second select method. 

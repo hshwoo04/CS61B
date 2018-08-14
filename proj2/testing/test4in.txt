@@ -1,0 +1,10 @@
+# Separate test for help command.
+# the output file for the commands was hard to match with the actual output.
+# but the help command is working okay.
+
+java -ea jump61.Main
+None
+===#1===
+help
+quit
+===#2===

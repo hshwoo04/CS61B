@@ -1,0 +1,25 @@
+# A test for the Game class and the AI class since it is difficult to use Junit tests to 
+# prove that they are working. The test tests the functionality of the mutliple methods in 
+# Game as well as in AI.
+java -ea jump61.Main
+None
+===#1===
+manual Blue
+manual Red
+size 2
+invalidcommand
+#
+seed 3
+set 1 1 2 r
+clear
+dump
+start
+invalidcommand
+1 1
+1 1
+1 2
+2 1
+1 2
+%eb
+quit
+===#2===
